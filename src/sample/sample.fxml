@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <CheckBox layoutX="95.0" layoutY="106.0" mnemonicParsing="false" text="CheckBox" />
+      <Button fx:id="mybut" layoutX="325.0" layoutY="111.0" mnemonicParsing="false" onAction="#onClickMethod" text="Button" />
+      <TextArea fx:id="area_one" layoutX="83.0" layoutY="161.0" prefHeight="39.0" prefWidth="194.0" text="Button" />
+      <ListView fx:id="my_list" layoutX="325.0" layoutY="161.0" onEditStart="#list_edit" onMouseClicked="#focusClick" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="del_but" layoutX="473.0" layoutY="111.0" mnemonicParsing="false" onAction="#delClick" text="Delete" />
+   </children>
+</AnchorPane>
